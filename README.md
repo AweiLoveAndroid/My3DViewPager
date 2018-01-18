@@ -35,4 +35,4 @@
 
 ### 示例图如下所示：
 
-[示例图](https://github.com/AweiLoveAndroid/My3DViewPager/blob/master/pic/logo.gif?raw=true)
+![示例图](https://github.com/AweiLoveAndroid/My3DViewPager/blob/master/pic/logo.gif?raw=true)
