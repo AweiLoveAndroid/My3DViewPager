@@ -30,3 +30,9 @@
 	        mViewPager.setPageMargin(10);//设置两个Page之间的距离
 	    }
 	}
+
+
+
+### 示例图如下所示：
+
+[](https://github.com/AweiLoveAndroid/My3DViewPager/blob/master/pic/logo.gif?raw=true)
