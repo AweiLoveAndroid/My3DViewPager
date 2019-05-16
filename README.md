@@ -42,6 +42,10 @@ void loadArrayLocalPictures(int position,int[] localData,ImageView imageView)|�
 
 ----
 
+### 更多详细文档请点击：  **[https://aweiloveandroid.github.io/My3DViewPager/](https://aweiloveandroid.github.io/My3DViewPager/)**
+
+----
+
 ### 示例代码如下：
 
 ```
