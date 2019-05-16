@@ -4,11 +4,19 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /**
- * Created by lzw on 2017/4/15.
- * 用ViewPager实现3D画廊效果
+ * 用ViewPager实现3D画廊效果的核心类
  */
 public class RotationPageTransformer implements ViewPager.PageTransformer {
+    /**
+     * 最小缩放值
+     */
     private static final float MIN_SCALE=0.85f;
+
+    /**
+     * 页面切换时对页面缩放旋转等动画操作的具体逻辑
+     * @param page 当前View
+     * @param position 当前位置
+     */
     @Override
     public void transformPage(View page, float position) {
         float scaleFactor = Math.max(MIN_SCALE,1 - Math.abs(position));
